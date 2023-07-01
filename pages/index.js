@@ -34,22 +34,27 @@ export default function HomePage() {
 
   const [status, setStatus] = useState("Start");
 
+  // fetched data array from api
   const [occupations, setOccupations] = useState([]);
   const [states, setStates] = useState([]);
 
   const [submitButtonPressed, setSubmitButtonPressed] = useState(false);
+
+  // user input
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [occupation, setOccupation] = useState("");
   const [state, setState] = useState("");
 
+  // check correctness
   const [nameCorrect, setNameCorrect] = useState(true);
   const [emailCorrect, setEmailCorrect] = useState(true);
   const [passwordCorrect, setPasswordCorrect] = useState(true);
   const [occupationCorrect, setOccupationCorrect] = useState(true);
   const [stateCorrect, setStateCorrect] = useState(true);
 
+  // password rules status
   const [ruleValid1, setRuleValid1] = useState(true);
   const [ruleValid2, setRuleValid2] = useState(true);
   const [ruleValid3, setRuleValid3] = useState(true);
@@ -60,6 +65,7 @@ export default function HomePage() {
 
   const [showPassword, setShowPassword] = useState(false);
 
+  // show password on/off
   const handleClickShowPassword = () => setShowPassword((show) => !show);
 
 
