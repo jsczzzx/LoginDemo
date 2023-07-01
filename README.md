@@ -20,6 +20,15 @@ This project implements a sign up page using Next.js, React and Material-UI.
 - Email Address Validation
 - Strong Password (along with real time notification)
 
+## Screenshots
+
+<p float="left">
+  <img width="350" src="https://github.com/jsczzzx/LoginDemo/blob/main/images/0.png?raw=true">
+  <img width="300" src="https://github.com/jsczzzx/LoginDemo/blob/main/images/1.png?raw=true">
+  <img width="300" src="https://github.com/jsczzzx/LoginDemo/blob/main/images/2.png?raw=true">
+</p>
+
+
 ## Installation
 
 #### a. Clone this repository
